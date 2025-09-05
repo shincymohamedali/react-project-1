@@ -1,0 +1,85 @@
+
+
+form{
+ background-color: white;
+ min-width:400px;
+ width:100%;
+ border-radius:5px;
+ padding:20px;
+ box-shadow: 0 4px 8px;
+
+}
+
+form h1{
+    color:#000;
+    margin-bottom:10px;
+    font-sixe:40px;
+}
+
+.caption{
+    fornt-sixe:16px;
+    color:rgb(128, 125, 125);
+    margin-bottom: 10px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-bottom:16px; 
+}
+
+.input-section input{
+    border:none;
+    border-bottom:1px solid #ccc; 
+    outline: none;
+    padding:8px;
+}
+.input-section input:focus{
+    border-bottom:1px solid black; 
+    
+}
+
+.input-section select{
+    border:1px solid #ccc; 
+    outline: none;
+    padding:8px;
+}
+
+.input-section label{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.dropdown-section label,.radio-groups label{
+    margin-bottom:16px;
+}
+.radio-groups input{
+font-weight: 200;
+}
+
+.radio-groups .radio-item{
+    font-weight: normal;
+}
+
+form button{
+    width:100%;
+    background-color: orangered;
+    border-radius:6px;
+    padding:15px 0;
+    cursor: pointer;
+    margin-top:10px;
+    border:none;
+    color:white;
+    transition: background-color 0.2 sec ease-in-out;
+}
+
+form button:hover{
+    background-color: purple;
+}
+
+.danger{
+    color:red;
+    margin-top:10px;
+    font-size: 12px;
+}
